@@ -169,23 +169,23 @@
 
     <audio id="audio-player"></audio>
 
-        <script>
-            const buttons = document.querySelectorAll('.letters .alpha');
-            const audioPlayer = document.getElementById('audio-player');
+      <script>
+    const buttons = document.querySelectorAll('.letters .alpha');
+    const audioPlayer = document.getElementById('audio-player');
 
-            buttons.forEach(button => {
-                button.addEventListener('click', (e) => {
-                    e.preventDefault(); // بيمنع اللينك الفاضي إنه يعمل ريفريش للشاشة
-                    
-                    const letter = button.innerText.trim(); // بيقرا الحرف اللي جوه الزرار
-                    
-                    audioPlayer.src = `audios/${letter}.mp3`; // بيروح لفولدر audios ويجيب الصوت
-                    audioPlayer.currentTime = 0; 
-                    audioPlayer.play(); // بيشغل الصوت
-                });
-            });
-        </script>
-    
+    buttons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault(); 
+            
+            const letter = button.innerText.trim(); 
+            
+            // تعديل علامات الاقتباس هنا إلى Backticks (``)
+            audioPlayer.src = `audios/${letter}.mp3`; 
+            audioPlayer.currentTime = 0; 
+            audioPlayer.play().catch(error => console.log("Audio play error:", error));
+        });
+    });
+</script>
   
     
   </body>
