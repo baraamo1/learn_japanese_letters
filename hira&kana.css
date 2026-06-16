@@ -1,0 +1,141 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffefbe;
+}
+.tobbar{
+   height :60px;
+    background-color:  #ff7200;
+    margin:0px;
+    padding-top: px;
+    padding-left: 10px;
+    align-content: center;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    border-bottom: 5px solid #000000;
+}
+#ljl{
+   
+    display: flex;
+    white-space: nowrap;
+    font-size: clamp(1rem, 4vw, 2rem);
+   
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+
+}
+.tnav{
+   
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+   gap: 10px;
+   
+}
+
+.up{
+    height: 25px;
+  border-radius: 10px;
+  background-color: #E8E5F7;
+   box-shadow: 4px 4px #000000;
+   
+}
+.up:hover{
+  
+  background-color: #925829;
+}
+.up:active{
+ box-shadow: none;
+ transform: translate(4px, 4px);
+
+}
+.infoa{
+    border: solid #838845;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 7px;
+    box-shadow: 4px 4px #000000;
+}
+#hi{
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+#lh{
+    
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+.alpha {
+    
+    display: inline-flex; 
+    flex-direction: row;
+    border: 5px solid ;
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+    font-size: 40px;
+    
+   font-family: "Archivo Black", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+  box-shadow: #000000 4px 4px;
+}
+.alpha:hover{
+  cursor: pointer;
+}
+.alpha:active{
+ box-shadow: none;
+ transform: translate(4px, 4px);
+
+}
+.infoa{
+  display: flex;
+  align-items: center;
+}
+.letters{
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 40px;
+ flex-wrap: wrap;
+ padding: 20px;
+
+}
+
+.y{
+  display: flex;
+ gap: 109px;
+ flex-wrap: wrap;
+}
+.w{
+display: flex;
+
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 316px;
+}
+#lll{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.ooo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
