@@ -1,4 +1,3 @@
-
 # Learn japanese letters
 
 This is a website to learn japanese letters hiragana and katakana.
